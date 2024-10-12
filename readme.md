@@ -1,5 +1,7 @@
 # Monitoring with `Grafana`, `Loki` and `Prometheus`
 
+![simple monitoring architecture](image.png)
+
 Video Tutorial: [https://youtu.be/ddZjhv66o_o](https://youtu.be/ddZjhv66o_o)
 
 ## Prerequisite
