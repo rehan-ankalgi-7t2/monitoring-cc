@@ -1,0 +1,25 @@
+{
+  "name": "monitoring-cc",
+  "version": "1.0.0",
+  "description": "server monitoring and logging using Grafana, Prometheus and Loki",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Grafana",
+    "Prometheus",
+    "Loki"
+  ],
+  "author": "Rehan Ankalgi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "prom-client": "^11.5.3",
+    "response-time": "^2.3.3",
+    "winston": "^3.15.0",
+    "winston-loki": "^6.1.2"
+  }
+}

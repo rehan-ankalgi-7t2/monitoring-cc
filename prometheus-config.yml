@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 4s
+
+scrape_configs:
+  - job_name: prometheus
+    static_configs: 
+      - targets: ["172.20.176.1:5000"] # IP address for local reference
